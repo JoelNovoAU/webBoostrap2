@@ -1,0 +1,498 @@
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;  
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(43, 43, 43, 0.308);
+    padding: 20px ;
+    margin: 0;
+  }
+  #navbarNav{
+    margin-left: 6%;
+  }
+  .navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.744);
+  } 
+    #heaimg3{
+      margin-left: 51%;
+    }
+  #enlaces{
+    color: white;
+    font-size: 1.2em;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin:10px 0;
+  
+  }
+  #enlaces:hover{
+border-bottom: 3px solid rgb(35, 105, 255);
+}
+.loginCesta{
+  margin-right: 1%;
+}
+#enlaces3{
+  border-bottom:3px solid rgb(35, 163, 255);
+  color: white;
+  font-size: 1.2em;
+font-weight: 700;
+transition: all 0.3s ease-in-out;
+text-decoration: none;
+margin:10px 0;
+}
+
+  #heaimg1{
+    width: 30px;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+#heaimg1:hover{
+  transform: scale(1.2);
+
+}
+
+  #img2 {
+    width: 60px;
+  }
+  #heaimg3{
+    width: 50px;
+
+  }
+  
+  #contenedorIndex {
+    width: 100%;
+    height: auto;
+}
+
+#img-container {
+    position: relative;
+    width: 100%;
+}
+
+#imgindex {
+    width: 100%;
+    display: block;
+}
+
+#reproductor {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-230%, -83%); 
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.album-cover {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+    filter: invert(1) brightness(1.2);
+}
+
+  /*MERCH*/
+  .img1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .contenido {
+    text-align: center;
+    background-color: black;
+    padding:2%;
+    margin: 0;
+  }
+
+  .contenido2 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding:  2%;
+    margin: 0;
+  }
+
+  .lacosta-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .lacosta {
+    position: absolute;
+    width: 200px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lacosta-text {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+  }
+
+  .contenido img {
+    width: 60%;
+    height: 250px;
+    margin-top: 130px;
+  }
+  .contenido2 img {
+    width: 60%;
+    height: 250px;
+    margin-top: 60px;
+  }
+
+.contenido #texto2 {
+  text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    margin-top: 15px;
+    font-family: "Revalia", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .contenido2  #texto2 {
+    color: rgb(65, 65, 65);
+    font-size: 1.1em;
+    margin-top: 15px;
+    font-family: "Revalia", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#merch2{
+  border-radius: 30px;
+
+}
+#merch2:hover{
+  box-shadow: 0 0 30px blue; 
+  border-radius: 30px;
+}
+
+#gorro1 {
+  margin-top: 135px;
+}
+#gorro1:hover {
+  box-shadow: 0 0 20px rgb(0, 0, 255); 
+  border-radius: 30px;
+}
+#gorro {
+  margin-top: 60px;
+}
+#gorro:hover {
+  box-shadow: 0 0 20px blue; 
+  border-radius: 30px;
+}
+.contenido #texto3{
+  color: white !important;
+  text-align: center;
+  font-size: 0.8em;
+  margin-right: 20%;
+  font-family: "Revalia", serif;
+  font-weight: 200;
+}
+.contenido2 #texto3{
+  color: rgb(0, 0, 0) !important;
+  font-size: 0.8em;
+  margin-right: 20%;
+  font-family: "Revalia", serif;
+  font-weight: 200;
+}
+
+/*CANCIONES*/
+#video1{
+  width: 100vw;  
+  height: 100vh;  
+  object-fit: cover;}
+video{
+  width: 100vw;  
+height: 60vh;  
+object-fit: cover;
+}
+  .form-control {
+    display: flex;
+    width: 100%;
+  }
+  .form-control::placeholder {
+   color: rgb(180, 180, 180);
+  }
+  .btn{
+    background-color: rgb(5, 82, 249);
+    color: white;
+  }
+  .btn:hover{
+    background-color: rgb(70, 162, 254);
+    
+  }
+
+  #cont1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    align-items: center;  
+  }
+/* Estilos para las imágenes de los álbumes */
+#foto3 {
+  border-radius: 10px;
+  width: 90%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+#foto3:hover {
+  border-radius: 30px;
+}
+
+/* Efecto hover con información del álbum */
+.album-info {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8); /* Fondo oscuro transparente */
+  color: white;
+  width: 92%;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+
+}
+
+.album-container:hover .album-info {
+  opacity: 1;
+}
+
+/* Botón dentro del hover */
+.album-info button {
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.album-info button:hover {
+  background-color: blue;
+  color: white;
+}
+
+
+
+
+
+  #contacto {
+    /*background-color: #1a1a1a; */
+    color: #fff;
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+#fondoimg1{
+  background-image: url(maxresdefault.jpg) ;
+width: 100%;
+}
+
+  #form1 {
+    margin:100px auto;
+    background-color: #1e1e1e; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: auto;  
+}
+  footer {
+    background-color: #383838;
+    width: 100%;
+    height: auto;     
+    position: relative; /* Necesario para que los elementos absolutos dentro del footer se posicionen correctamente */
+ 
+  }
+  #redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #rede2{
+    width: 35px;
+    height: 30px;
+  }
+  h3 {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+  }
+  #texto5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6em;
+    color: white;
+    width: 70%;
+ margin-left: 15%;
+  }
+  #form2 {
+margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+  }
+  #boton3{
+    background-color: rgb(5, 82, 249);
+    color: #fff; 
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  #boton3:hover{
+    background-color: rgb(70, 162, 254);
+
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+.texto{
+  display: flex;
+  justify-content: center;
+}
+label {
+    font-size: 1.1rem;
+    color: #ddd; 
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  input[type="text"], 
+  input[type="email"], 
+  input[type="date"], 
+  input[type="tel"], 
+  select, 
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #575656; 
+    border: 1px solid #444; 
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(204, 204, 204);
+  }
+  #boton2 {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  #textoCont{
+    color: #e1e1e1;
+    margin-top: 3%;
+    margin-left: 8%;
+    border-bottom: 2px solid rgb(5, 82, 249);
+    width: 5%;
+  }
+  #imgcontacto{
+    width: 100%;
+    height: 100%;
+  }
+  #boton2:hover {
+    background-color: #28452a; 
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+#detallesEvento{
+  background-color: #575656; 
+border: none;
+}
+
+  #evento {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #575656; 
+    border: 1px solid #444; 
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(204, 204, 204);
+  }
+  h2{
+    color: white;
+  }
+  .nav-pills{
+  border: none; 
+  margin-top: 10%;
+  }
+  .top{
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+  } 
+ /* Contenedor principal */
+
+  .contacto1.active{
+    color: white !important;
+  }
+  #logofooter{
+    position: absolute;
+    width: 10%;
+    left: 0;  /* Asegura que esté pegado al borde izquierdo */
+    bottom: 0; /* Asegura que esté en la parte inferior */
+  }
+  
