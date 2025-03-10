@@ -501,4 +501,9 @@ border: none;
     left: 0;  
     bottom: 0; 
   }
-  
+  .preciofinal{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background-color: #4CAF50;
+  }

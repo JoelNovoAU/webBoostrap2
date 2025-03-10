@@ -211,3 +211,11 @@ footer textarea {
   left: 0; 
   bottom: 0; 
 }
+.precioFinal{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  font-weight: bold;
+  color: #2369ff;
+font-size: 20px;
+}
