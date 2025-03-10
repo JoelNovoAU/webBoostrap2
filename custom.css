@@ -89,13 +89,14 @@ margin:10px 0;
 #reproductor {
     position: absolute; 
     top: 50%; 
-    left: 50%; 
-    transform: translate(-230%, -83%); 
+    left: 5%;  /* Lo dejamos alineado a la izquierda */
+    transform: translate(0, -80%);  /* Mantiene la posición sin salirse */
     background: rgba(0, 0, 0, 0.8); 
     padding: 20px;
     border-radius: 15px;
     text-align: center;
     width: 300px;
+    max-width: 90vw; /* Se adapta si la pantalla es muy pequeña */
     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 }
 
@@ -109,6 +110,20 @@ audio {
     width: 100%;
     outline: none;
     filter: invert(1) brightness(1.2);
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 1200px) {
+  #reproductor {
+    top: 55%;
+    left: 2%; 
+        width: 220px;
+  }
+}
+@media (max-width: 767px) {
+    #reproductor {
+       display: none;
+    }
 }
 
   /*MERCH*/
@@ -262,7 +277,6 @@ object-fit: cover;
     display: flex;
     align-items: center;  
   }
-/* Estilos para las imágenes de los álbumes */
 #foto3 {
   border-radius: 10px;
   width: 90%;
@@ -273,11 +287,10 @@ object-fit: cover;
   border-radius: 30px;
 }
 
-/* Efecto hover con información del álbum */
 .album-info {
   position: absolute;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8); /* Fondo oscuro transparente */
+  background: rgba(0, 0, 0, 0.8); 
   color: white;
   width: 92%;
   text-align: center;
@@ -294,7 +307,6 @@ object-fit: cover;
   opacity: 1;
 }
 
-/* Botón dentro del hover */
 .album-info button {
   color: black;
   border: none;
@@ -309,12 +321,7 @@ object-fit: cover;
   color: white;
 }
 
-
-
-
-
   #contacto {
-    /*background-color: #1a1a1a; */
     color: #fff;
     font-family: 'Arial', sans-serif; 
     margin: 0;
@@ -340,7 +347,7 @@ width: 100%;
     background-color: #383838;
     width: 100%;
     height: auto;     
-    position: relative; /* Necesario para que los elementos absolutos dentro del footer se posicionen correctamente */
+    position: relative; 
  
   }
   #redes{
@@ -484,7 +491,6 @@ border: none;
     margin-bottom: 3%;
 
   } 
- /* Contenedor principal */
 
   .contacto1.active{
     color: white !important;
@@ -492,7 +498,7 @@ border: none;
   #logofooter{
     position: absolute;
     width: 10%;
-    left: 0;  /* Asegura que esté pegado al borde izquierdo */
-    bottom: 0; /* Asegura que esté en la parte inferior */
+    left: 0;  
+    bottom: 0; 
   }
   

@@ -122,7 +122,7 @@ footer {
   background-color: #383838;
   width: 100%;
   height: auto;     
-  position: relative; /* Necesario para que los elementos absolutos dentro del footer se posicionen correctamente */
+  position: relative; 
 
 }
 #redes{
@@ -208,6 +208,6 @@ footer textarea {
 #logofooter{
   position: absolute;
   width: 10%;
-  left: 0;  /* Asegura que esté pegado al borde izquierdo */
-  bottom: 0; /* Asegura que esté en la parte inferior */
+  left: 0; 
+  bottom: 0; 
 }
